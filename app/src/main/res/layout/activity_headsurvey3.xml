@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/head_survey_3LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Land,Forest And Horticultural Profile"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type Of Forest(Reserved/Protected/Open)"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/forest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Community Forest(Acre)"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/forest1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Government Forest(Acre)"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/forest2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Forest Trees and Shrub Species"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/forest3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energy Plantation(if Yes,which species and area(Top 3)"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Species"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/forest4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area"
+            android:textColor="#000000"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/forest5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/head_survey_3_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:onClick="head_survey_3_next"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/buttoncolr"
+            android:text="Next" />
+    </LinearLayout>
+</ScrollView>

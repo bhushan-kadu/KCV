@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/householdSurvey10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.Livestocs Numbers"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(in  number)"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_width="75sp"
+                android:layout_height="30sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="1.Cows:"/>
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_width="85sp"
+                android:layout_height="30sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="2.Buffalo:"/>
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_width="140sp"
+                android:layout_height="30sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="3.Goat/Sheep:"/>
+
+            <EditText
+                android:id="@+id/edit3"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_width="85sp"
+                android:layout_height="30sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="4.Calves:"/>
+
+            <EditText
+                android:id="@+id/edit4"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_width="95sp"
+                android:layout_height="30sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="5.Bullocks:"/>
+
+            <EditText
+                android:id="@+id/edit5"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_width="155sp"
+                android:layout_height="30sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="6.Poultry/Ducks:"/>
+
+            <EditText
+                android:id="@+id/edit6"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Shelter for Livestock:"/>
+
+            <RadioGroup
+                android:layout_marginTop="0sp"
+                android:id="@+id/op"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:textSize="20sp"
+                    android:id="@+id/Pucca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pucca"/>
+
+                <RadioButton
+                    android:textSize="20sp"
+                    android:id="@+id/Kutcha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kutcha"/>
+
+                <RadioButton
+                    android:textSize="20sp"
+                    android:id="@+id/Open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Open"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="8.Average Daily Production of Milk(Liters):"/>
+
+            <EditText
+                android:id="@+id/edit7"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="9.Animal Waste/Cow Dung(in Kgs.):"/>
+
+            <EditText
+                android:id="@+id/edit8"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:onClick="reg"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/buttoncolr"
+            android:text="@string/Next" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

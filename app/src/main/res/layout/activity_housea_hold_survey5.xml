@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/householdSurvey5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Source of Water"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Distance from Source in kms)"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            />
+
+
+        />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_width="200dp"
+                android:layout_height="30sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="1.Piped water at Home:"/>
+
+            <RadioGroup
+                android:layout_marginTop="0sp"
+                android:id="@+id/op"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:textSize="20sp"
+                    android:id="@+id/yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"/>
+
+                <RadioButton
+                    android:textSize="20sp"
+                    android:id="@+id/no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Distance:"/>
+            <EditText
+                android:id="@+id/edit8"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="220dp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="2.Community Water Tap:"/>
+
+            <RadioGroup
+
+                android:id="@+id/op1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:textSize="20sp"
+                    android:id="@+id/yes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"/>
+
+                <RadioButton
+                    android:textSize="20sp"
+                    android:id="@+id/no1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Distance:"/>
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="220dp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="3.Hand Pump Public:"/>
+
+            <RadioGroup
+
+                android:id="@+id/op2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:textSize="20sp"
+                    android:id="@+id/yes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"/>
+
+                <RadioButton
+                    android:textSize="20sp"
+                    android:id="@+id/no2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Distance:"/>
+            <EditText
+                android:id="@+id/edit3"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="220dp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="4.Hand Pump Private"/>
+
+            <RadioGroup
+
+                android:id="@+id/op4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:textSize="20sp"
+                    android:id="@+id/yes4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"/>
+
+                <RadioButton
+                    android:textSize="20sp"
+                    android:id="@+id/no4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Distance:"/>
+            <EditText
+                android:id="@+id/edit4"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="220dp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="5.Open Well Public:"/>
+
+            <RadioGroup
+
+                android:id="@+id/op5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:textSize="20sp"
+                    android:id="@+id/yes5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"/>
+
+                <RadioButton
+                    android:textSize="20sp"
+                    android:id="@+id/no5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Distance:"/>
+            <EditText
+                android:id="@+id/edit5"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="220dp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="6.Open Well Private:"/>
+
+            <RadioGroup
+
+                android:id="@+id/op6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:textSize="20sp"
+                    android:id="@+id/yes6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"/>
+
+                <RadioButton
+                    android:textSize="20sp"
+                    android:id="@+id/no6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Distance:"/>
+            <EditText
+                android:id="@+id/edit6"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="300dp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="7.Mode of Water Storage:"/>
+
+            <RadioGroup
+
+                android:id="@+id/op7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:textSize="20sp"
+                    android:id="@+id/com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Community"/>
+
+                <RadioButton
+                    android:textSize="20sp"
+                    android:id="@+id/indi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Individual"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="8.Any Other Source(mention):"/>
+            <EditText
+                android:id="@+id/edit7"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:onClick="reg"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/buttoncolr"
+            android:text="@string/Next" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eduinfo">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="School Education and Literacy"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/layout1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="1.Samagra Shiksha"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout2"
+                android:layout_marginTop="5dp">
+
+
+                <ImageView
+                    android:src="@drawable/edu11"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout3"
+
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Union Budget, 2018-19, has proposed to treat school education holistically without segmentation from pre-nursery to Class 12. Samagra Shiksha - an overarching programme for the school education sector extending from pre-school to class 12 has been, therefore, prepared with the broader goal of improving school effectiveness measured in terms of equal opportunities for schooling and equitable learning outcomes. It subsumes the three Schemes of Sarva Shiksha Abhiyan (SSA), Rashtriya Madhyamik Shiksha Abhiyan (RMSA) and Teacher Education (TE). This sector-wide development programme/scheme would also help harmonise the implementation mechanisms and transaction costs at all levels, View More"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="17dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/layout4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2.Mid Day Meal"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout5"
+                android:layout_marginTop="25dp">
+
+                <ImageView
+                    android:src="@drawable/edu12"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout6"
+                android:layout_marginTop="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="With a view to enhancing enrolment, retention and attendance and simultaneously improving nutritional levels among children, the National Programme of Nutritional Support to Primary Education (NP-NSPE) was launched as a Centrally Sponsored Scheme on 15th August 1995. In 2001 MDMS became a cooked Mid Day Meal Scheme under which every child in every Government and Government aided primary school was to be served a prepared Mid Day Meal with a minimum content of 300 calories of energy and 8-12 gram protein per day for a minimum of 200 days. The Scheme was further extended in 2002 to cover not only children studying in Government, Government aided and local body schools, but also children studying in Education Guarantee Scheme (EGS) and Alternative and Innovative Education (AIE) centres. In September 2004 the Scheme was revised to provide for Central Assistance for Cooking cost @ Re 1 per child per school day to cover cost of pulses, vegetables cooking oil, condiments, fuel and wages and remuneration payable to personnel or amount payable to agency responsible for cooking. Transport subsidy was also raised from the earlier maximum of Rs 50 per quintal to Rs. 100 per quintal for special category states and Rs 75 per quintal for other states. Central assistance was provided for the first time for management, monitoring and evaluation of the scheme @ 2% of the cost of foodgrains, transport subsidy and cooking assistance. A provision for serving mid day meal during summer vacation in drought affected areas was also made."
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/layout7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Schemes for Infrastucture Development of Private Aided/Unaided Minority Institutes (IDMI)"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout8"
+                android:layout_marginTop="35dp">
+
+                <ImageView
+                    android:src="@drawable/edu13"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout9"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:text="The scheme would facilitate education of minorities by augmenting and strengthening school infrastructure in Minority Institutions in order to expand facilities for formal education to children of minority communities. The scheme will cover the entire country but, preference will be given to minority institutions (private aided/unaided schools) located in districts, blocks and towns having a minority population above 20%, The scheme will inter alia encourage educational facilities for girls, children with special needs and those who are most deprived educationally amongst minorities. The scheme will fund infrastructure development of private aided/unaided minority institutions to the extent of 75% and subject to a maximum of Rs. 50 lakhs per institution for strengthening of educational infrastructure and physical facilities in the existing school including additional classrooms, science / computer lab rooms, library rooms, toilets, drinking water facilities and hostel buildings for children especially for girls."
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/layout10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Saakshar Bharat"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout11"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:src="@drawable/edu14"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout12"
+
+                android:layout_marginTop="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Saakshar Bharat Programme goes beyond ‘3’ R’s (i.e. Reading, Writing and Arithmetic) ; for it also seeks to create awareness of social disparities and a person’s deprivation on the means for its amelioration and general well being. This programme was formulated in 2009 with the objective of achieving 80% literacy level at national level, by focusing on adult women literacy seeking – to reduce the gap between male and female literacy to not more than 10 percentage points .it has four broader objectives, namely imparting functional literacy and numeracy to non-literates; acquiring equivalency to formal educational system; imparting relevant skill development programme; and promote a leaning society by providing opportunities for continuing education. The principal target of the programme is to impart functional literacy to 70 million non-literate adults in the age group of 15 years and beyond. This Includes coverage of 14 million Scheduled Castes(SCs), 8 million Scheduled Tribes(STs), 12 million minorities and '36 million others. The overall coverage of women is aimed at 60 million. 410 districts belonging to 27 States/UTs of the country were identified to be covered under Saakshar Bharat."
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

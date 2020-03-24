@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutKCV"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Story"
+                    android:textSize="40dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/layout1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About KCV"
+                    android:textColor="#111BEC"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout2"
+                android:layout_marginTop="10dp">
+
+
+                <ViewFlipper
+                    android:background="@drawable/border_image"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/v_flipper1">
+
+                </ViewFlipper>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout3"
+
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Knowledge, College - Village Project
+                               In Feb 2017, ‘village sustainability and education system’ Orientation Program was organized on 4th and 5th Feb 2017. In this Orientation Programcentre trying to club present education system and panchayat raj system for sustainable village development program. The workshop was organized for selected Professors from Pune University, Kolhapur University and collage from Karnataka, student etc. the number of participants in the workshop was 50. The lecture delivered in this workshop was done by 9 experts. The introductory speech was delivered by Dr. Ram Takavale and the Valedictory speech was delivered by Dr. RajaramDeshmukh, Vice Chancellor of Agriculture University. The Principal of 5 different colleges, teachers and students discuss on sustainable village development on their personal experiences."
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textAlignment="inherit"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_below="@id/layout4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Work"
+                    android:textColor="#111BEC"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout5"
+                android:layout_marginTop="30dp">
+
+
+                <ViewFlipper
+                    android:background="@drawable/border_image"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/v_flipper">
+
+                </ViewFlipper>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout6"
+
+                android:layout_marginTop="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Knowledge, College - Village Project
+                               In Feb 2017, ‘village sustainability and education system’ Orientation Program was organized on 4th and 5th Feb 2017. In this Orientation Programcentre trying to club present education system and panchayat raj system for sustainable village development program. The workshop was organized for selected Professors from Pune University, Kolhapur University and collage from Karnataka, student etc. the number of participants in the workshop was 50. The lecture delivered in this workshop was done by 9 experts. The introductory speech was delivered by Dr. Ram Takavale and the Valedictory speech was delivered by Dr. RajaramDeshmukh, Vice Chancellor of Agriculture University. The Principal of 5 different colleges, teachers and students discuss on sustainable village development on their personal experiences."
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textAlignment="inherit"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

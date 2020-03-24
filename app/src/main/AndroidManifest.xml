@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kcv.kcv">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".UserFeedback"></activity>
+        <activity android:name=".HouseaHoldSurvey11" />
+        <activity android:name=".HouseaHoldSurvey10" />
+        <activity android:name=".HouseaHoldSurvey9" />
+        <activity android:name=".HouseaHoldSurvey8" />
+        <activity android:name=".HouseaHoldSurvey7" />
+        <activity android:name=".HouseaHoldSurvey6" />
+        <activity android:name=".HouseaHoldSurvey5" />
+        <activity android:name=".HouseaHoldSurvey4" />
+        <activity android:name=".HouseaHoldSurvey2" />
+        <activity android:name=".HouseaHoldSurvey3" />
+        <activity android:name=".HouseaHoldSurvey1" />
+        <activity android:name=".HouseaHoldSurvey" />
+        <activity android:name=".Headsurveysubmit" />
+        <activity android:name=".Headsurvey4" />
+        <activity android:name=".Headsurvey3" />
+        <activity android:name=".HeadSurvey2" />
+        <activity android:name=".HeadSurvey1" />
+        <activity android:name=".Headsurvey" />
+        <activity android:name=".eduinfo" />
+        <activity
+            android:name=".governenceinfo"
+            android:label="Governence" />
+        <activity
+            android:name=".forestinfo"
+            android:label="Forest" />
+        <activity
+            android:name=".waterinfo"
+            android:label="Water" />
+        <activity
+            android:name=".landinfo"
+            android:label="Land" />
+        <activity
+            android:name=".transportinfo"
+            android:label="Transport" />
+        <activity
+            android:name=".energyinfo"
+            android:label="Energy" />
+        <activity
+            android:name=".healthinfo"
+            android:label="Health" />
+        <activity android:name=".Goverence" />
+        <activity android:name=".setting" />
+        <activity android:name=".logout" />
+        <activity android:name=".developedby" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Survey" />
+        <activity android:name=".How_to_use" />
+        <activity android:name=".KCVdocumentry" />
+        <activity android:name=".AboutKCV" />
+        <activity android:name=".ChangeLanguage" />
+        <activity android:name=".Changepaswword" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".User" />
+        <activity android:name=".LAND" />
+        <activity android:name=".WATER" />
+        <activity android:name=".HEALTH" />
+        <activity android:name=".Transportation" />
+        <activity android:name=".Forest" />
+        <activity android:name=".EDUCATION" />
+        <activity android:name=".ENERGY" />
+        <activity android:name=".drinking_water" />
+        <activity android:name=".drinkingwater_q2" />
+        <activity android:name=".drinkingwater_q3" />
+        <activity android:name=".drinkingwater_q4" />
+        <activity android:name=".drinkingwater_q5" />
+        <activity android:name=".regularuse_water" />
+        <activity android:name=".acticityagriculturewater_q5" />
+        <activity android:name=".activityagriculturewater_q4" />
+        <activity android:name=".acticityagriculturewater_q3" />
+        <activity android:name=".activityagriculturewater_q2" />
+        <activity android:name=".Agriculture_water" />
+        <activity android:name=".Regularusewater_q5" />
+        <activity android:name=".Regularusewater_q4" />
+        <activity android:name=".Regularusewater_q3" />
+        <activity android:name=".Regularusewater_q2" />
+        <activity android:name=".marks" />
+        <activity
+            android:name=".Mainpage1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".swipe3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".swipe2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".swipe1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity android:name=".signinpage" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+    </application>
+
+</manifest>

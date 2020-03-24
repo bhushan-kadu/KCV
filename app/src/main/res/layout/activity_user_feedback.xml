@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:paddingBottom="10dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/thankLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:text="Thank You for your valuable feedback!"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/feedbackLayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextView_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Feedback Is Important For Us!"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="10pt">
+        </TextView>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:gravity="top"
+            android:lines="10"
+            android:id="@+id/EditText_FeedbackBody"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:hint="Please enter your Feedback"
+            android:scrollbars="vertical"
+            android:textColorHint="#0000ff"
+            >
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/CheckBoxResponse"
+            android:layout_height="wrap_content"
+            android:text="Are you sure you want to submit? Check the box then!"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            >
+        </CheckBox>
+
+        <Button
+
+            android:id="@+id/ButtonSendFeedback"
+            android:layout_height="40dp"
+            android:text="Submit"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:onClick="sendFeedback"
+            android:layout_width="100dp"
+            android:background="#0000ff">
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+</ScrollView>

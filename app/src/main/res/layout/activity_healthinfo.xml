@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".healthinfo">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Healthcare schemes in India that you must know about"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/layout1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="1. Reproductive, Maternal, Newborn, Child and Adolescent Health (RMNCH+A)
+
+"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout2"
+                android:layout_marginTop="5dp">
+
+
+                <ImageView
+                    android:src="@drawable/healthinfo1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout3"
+
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="programme essentially looks to address the major causes of mortality among women and children as well as the delays in accessing and utilizing health care and services. It also introduces new initiatives like the use of Score Card to track health performance, National Iron + Initiative to address the issue of anemia across all age groups and the Comprehensive Screening and Early interventions for defects at birth, diseases, and deficiencies among children and adolescents. programme essentially looks to address the major causes of mortality among women and children as well as the delays in accessing and utilizing health care and services. It also introduces new initiatives like the use of Score Card to track health performance, National Iron + Initiative to address the issue of anemia across all age groups and the Comprehensive Screening and Early interventions for defects at birth, diseases, and deficiencies among children and adolescents. programme essentially looks to address the major causes of mortality among women and children as well as the delays in accessing and utilizing health care and services. It also introduces new initiatives like the use of Score Card to track health performance, National Iron + Initiative to address the issue of anemia across all age groups and the Comprehensive Screening and Early interventions for defects at birth, diseases, and deficiencies among children and adolescents."
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="17dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/layout4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Rashtriya Bal Swasthya Karyakram (RBSK)"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp"
+                     />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout5"
+                android:layout_marginTop="25dp">
+
+                <ImageView
+                    android:src="@drawable/healthinfo2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout6"
+
+                android:layout_marginTop="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This is an important initiative aiming at early identification and early intervention for children from birth to 18 years to cover 4 ‘D’s viz. Defects at birth, Deficiencies, Diseases, Development delays including disability. Early detection and management diseases including deficiencies bring added value in preventing these conditions to progress to its more severe and debilitating form is an important initiative aiming at early identification and early intervention for children from birth to 18 years to cover 4 ‘D’s viz. Defects at birth, Deficiencies, Diseases, Development delays including disability. Early detection and management diseases including deficiencies bring added value in preventing these conditions to progress to its more severe and debilitating form is an important initiative aiming at early identification and early intervention for children from birth to 18 years to cover 4 ‘D’s viz. Defects at birth, Deficiencies, Diseases, Development delays including disability. Early detection and management diseases including deficiencies bring added value in preventing these conditions to progress to its more severe and debilitating form."
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/layout7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. The Rashtriya Kishor Swasthya Karyakram"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout8"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:src="@drawable/healthinfo3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout9"
+
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The key principle of this programme is adolescent participation and leadership, Equity and inclusion, Gender Equity and strategic partnerships with other sectors and stakeholders. The programme enables all adolescents in India to realize their full potential by making informed and responsible decisions related to their health and well-being and by accessing the services and support they need to do so. The key principle of this programme is adolescent participation and leadership, Equity and inclusion, Gender Equity and strategic partnerships with other sectors and stakeholders. The programme enables all adolescents in India to realize their full potential by making informed and responsible decisions related to their health and well-being and by accessing the services and support they need to do so. The key principle of this programme is adolescent participation and leadership, Equity and inclusion, Gender Equity and strategic partnerships with other sectors and stakeholders. The programme enables all adolescents in India to realize their full potential by making informed and responsible decisions related to their health and well-being and by accessing the services and support they need to do so."
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/layout10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Shishu Suraksha Karyakaram"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout11"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:src="@drawable/helthinfo4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout12"
+
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="The government of India has launched Janani Shishu Suraksha Karyakaram to motivate those who still choose to deliver at their homes to opt for institutional deliveries. It is an initiative with a hope that states would come forward and ensure that benefits under JSSK would reach every needy pregnant woman coming to government institutional facility. Since the rate of deaths in the country because of communicable and non-communicable diseases is increasing at an alarming rate, the government has introduced various programmes to aid people against these diseases. The government of India has launched Janani Shishu Suraksha Karyakaram to motivate those who still choose to deliver at their homes to opt for institutional deliveries. It is an initiative with a hope that states would come forward and ensure that benefits under JSSK would reach every needy pregnant woman coming to government institutional facility. Since the rate of deaths in the country because of communicable and non-communicable diseases is increasing at an alarming rate, the government has introduced various programmes to aid people against these diseases."
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/layout13">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. National AIDS Control Organisation"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout14"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:src="@drawable/healthinfo5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout15"
+
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="National AIDS Control Organisation was set up so that every person living with HIV has access to quality care and is treated with dignity. By fostering close collaboration with NGOs, women’s self-help groups, faith-based organizations, positive people’s networks, and communities, NACO hopes to improve access and accountability of the services. It stands committed to building an enabling environment wherein those infected and affected by HIV play a central role in all responses to the epidemic – at state, district and grassroots level. National AIDS Control Organisation was set up so that every person living with HIV has access to quality care and is treated with dignity. By fostering close collaboration with NGOs, women’s self-help groups, faith-based organizations, positive people’s networks, and communities, NACO hopes to improve access and accountability of the services. It stands committed to building an enabling environment wherein those infected and affected by HIV play a central role in all responses to the epidemic – at state, district and grassroots level. National AIDS Control Organisation was set up so that every person living with HIV has access to quality care and is treated with dignity. By fostering close collaboration with NGOs, women’s self-help groups, faith-based organizations, positive people’s networks, and communities, NACO hopes to improve access and accountability of the services. It stands committed to building an enabling environment wherein those infected and affected by HIV play a central role in all responses to the epidemic – at state, district and grassroots level."
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+</LinearLayout>

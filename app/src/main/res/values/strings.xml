@@ -1,0 +1,245 @@
+<resources>
+    <string name="app_name" translatable="false">KCV</string>
+    <string name="firstname">Firstname</string>
+    <string name="Username">Username</string>
+    <string name="lastname">Lastname</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password Again</string>
+    <string name="email">Email</string>
+    <string name="birthday">Birthdate</string>
+    <string name="gender">Gender : </string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+    <string name="register_form_text">You need to fill up below register form.</string>
+    <string name="no_field_can_be_empty">No field can be empty</string>
+    <string name="passwords_must_be_the_same">Password and password again field must be the same</string>
+    <string name="here_is_values">Here is values: %1$s</string>
+    <string name="nameerror">VALIDATION</string>
+    <string name="ageerror">VALIDATE</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Address">Address</string>
+    <string name="District">District</string>
+    <string name="Taluka">Taluka</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_email">email</string>
+    <string name="username">username</string>
+    <string name="login">login</string>
+    <string name="login1">Dont have account?Register</string>
+    <string name="Logout">Logout</string>
+    <string name="DevelopedBy">Developed By</string>
+    <string name="UserFeedback">User Feedback</string>
+    <string name="HeadSurvey">Head Survey</string>
+    <string name="Survey">Survey</string>
+    <string name="HowToUse">How To Use</string>
+    <string name="AboutKCV">About KCV</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="UserProfile">User Profile</string>
+    <string name="KCVDocumentry">KCV Documentry</string>
+    <string name="CONVERGENCE">4.CONVERGENCE</string>
+    <string name="detail">The principal emphasis is on qualitative and timely execution of the watershed development projects, with one: optimal utilisation of available budgetary support, two: convergence with relevant Central and State schemes and three: prioritization of projects / project activities. Chief Secretaries of all States (except Goa) have been accordingly requested on 02.02.2017. Keeping in view that successful implementation of projects inter alia requires concerted efforts towards convergence of schemes and programmes of not only of Central Government Ministries but also of State Government Departments as may fit into the schematic design and overall requirements and objectives of watershed development, action has specifically been initiated to prepare apt convergence matrix inclusive of both Central and State schemes in the projects. To optimize the resources action has been initiated for signing an MoU with the three Departments in Ministry of Agriculture and Farmers Welfare, namely (i) Department of Agriculture, Cooperation and Farmers Welfare, (ii) Department of Animal Husbandry, Dairying and Fisheries and (iii) Department of Agricultural Research and Education. Action has also been taken to undertake Natural Resources Management activities by utilizing the labour component of MGNREGS and to undertake some of the Entry Point Activities in convergence with Swachh Bharat Mission (Gramin)."</string>
+    <string name="Village_Infrastructure_and_Basic_Amenities">Village Infrastructure and Basic Amenities</string>
+    <string name="Is_there_any_Government_Primary_Schools">Is there any Government Primary Schools?</string>
+    <string name="Yes">Yes</string>
+    <string name="Numbers_Of_Schools">Numbers Of Schools</string>
+    <string name="Distance_if_located_outside">Distance if located outside(Km)</string>
+    <string name="Is_there_any_Private_Primary_Schools">Is there any Private Primary Schools?</string>
+    <string name="Is_there_any_Government_Middle_Schools">Is there any Government Middle Schools?</string>
+    <string name="Is_there_any_Private_Middle_Schools">Is there any Private Middle Schools?</string>
+    <string name="Is_there_any_Government_Secondary_Schools">Is there any Government Secondary Schools?</string>
+    <string name="Is_there_any_Private_Secondary_Schools">Is there any Private Secondary Schools?</string>
+    <string name="Is_there_any_Government_ITI_Diploma_Institutes">Is there any Government ITI Diploma Institutes?</string>
+    <string name="Total_Number">Total Number</string>
+    <string name="Is_there_any_Private_ITI_Diploma_Institutes">Is there any Private ITI Diploma Institutes?</string>
+    <string name="Is_there_any_Government_Colleges">Is there any Government Colleges?</string>
+    <string name="Is_there_any_Private_Colleges">Is there any Private Colleges?</string>
+    <string name="Is_there_any_BanksATM">Is there any Banks/ATM ?</string>
+    <string name="Is_there_any_Primary_Health_Centres">Is there any Primary Health Centres?</string>
+    <string name="Is_there_any_Civil_Hospital">Is there any Civil Hospital?</string>
+    <string name="Is_there_any_SHGs">Is there any SHGs?</string>
+    <string name="Is_there_any_NGOs">Is there any NGOs</string>
+    <string name="Is_there_any_Post_Office">Is there any Post Office?</string>
+    <string name="Is_there_any_Gas_Agencies">Is there any Gas Agencies?</string>
+    <string name="Is_there_any_Traning_Centres">Is there any Traning Centres?</string>
+    <string name="Is_there_any_Electricity_Office">Is there any Electricity Office?</string>
+    <string name="Is_there_any_Anganwadi_Kentra">Is there any Anganwadi Kentra?</string>
+    <string name="Is_there_any_Petrol_Pump">Is there any Petrol Pump?</string>
+    <string name="Is_there_any_Kisan_Sewa_Kendra">Is there any Kisan Sewa Kendra?</string>
+    <string name="Is_there_any_Krishi_Mandi">Is there any Krishi Mandi?</string>
+    <string name="Is_there_any_Fare_Price_Shop">Is there any Fare Price Shop?</string>
+    <string name="Is_there_any_Milk_CorporativeCollection_Centre">Is there any Milk Corporative/Collection Centre?</string>
+    <string name="Is_there_any_Railway_Station">Is there any Railway Station?</string>
+    <string name="Is_there_any_Bus_Stop">Is there any Bus Stop?</string>
+    <string name="Is_there_any_Veterinary_Care_Centre">Is there any Veterinary Care Centre?</string>
+    <string name="Is_there_any_Spotrts_FacilityGrounds">Is there any Spotrts Facility/Grounds?</string>
+    <string name="Is_there_any_Common_Sanitation_Complexes">Is there any Common Sanitation Complexes?</string>
+    <string name="Work">Our Work</string>
+    <string name="VillageID">VillageID</string>
+    <string name="Village_Name">Village Name</string>
+    <string name="Basic_Information">Basic Information</string>
+    <string name="Gram_Panchayat">Gram Panchayat</string>
+    <string name="Number_Of_Wards">Number Of Wards</string>
+    <string name="Number_Of_Hamlets">Number Of Hamlets</string>
+    <string name="Blocks">Blocks</string>
+    <string name="State">State</string>
+    <string name="Lok_SabhaConstituency">Lok Sabha/Constituency</string>
+    <string name="Distance_from_District_HQ">Distance from District HQ</string>
+    <string name="Area_Of_Village_Acres">Area Of Village (Acres)</string>
+    <string name="Arable_land_agriculture_Area_Acres">Arable land agriculture Area(Acres)</string>
+    <string name="Forest_Area_Acres">Forest Area (Acres)</string>
+    <string name="HousingAbadi_Area_Acres">Housing/Abadi Area (Acres)</string>
+    <string name="Area_Under_Water_Bodies_Acres">Area Under Water Bodies (Acres)</string>
+    <string name="Common_Land_Area_Acres">Common Land Area (Acres)</string>
+    <string name="Average_Per_Capital_Land_Holding_Acres">Average Per Capital Land Holding (Acres)</string>
+    <string name="Waste_Land_Acres">Waste Land (Acres)</string>
+    <string name="Water_TableFeet">Water Table(Feet)</string>
+    <string name="Village_Population">*Village Population</string>
+    <string name="Any_Recreation_Center_For_YouthChildrenSenior_Citizen">*Any Recreation Center For Youth,Children,Senior Citizen?</string>
+    <string name="Any_illegal_alcohol_shop_in_village">*Any illegal alcohol shop in village?</string>
+    <string name="Any_Sucessfull_Business_related_to_agriculture_of_any_villager">*Any Sucessfull Business related to agriculture of any villager?</string>
+    <string name="Any_Specfic_Geographical_or_other_Advantages_like_River_for_fishing_or_any_other_activities">*Any Specfic Geographical or other Advantages like River for fishing or any other activities?</string>
+    <string name="Do_the_village_have_waste_mangement_system">*Do the village have waste mangement system?</string>
+    <string name="Number_Of_PHD_and_Masters_Degree_Holders_in_village">*Number Of PHD and Masters Degree Holders in village?</string>
+    <string name="Land_Forest_And_Horticultural_Profile">4.Land,Forest And Horticultural Profile</string>
+    <string name="Type_Of_Forest_ReservedProtectedOpen">Type Of Forest(Reserved/Protected/Open)</string>
+    <string name="Community_ForestAcre">Community Forest(Acre)</string>
+    <string name="Government_ForestAcre">Government Forest(Acre)</string>
+    <string name="Main_Forest_Trees_and_Shrub_Species">Main Forest Trees and Shrub Species</string>
+    <string name="Energy_Plantation_if_Yes_which_species_and_area">Energy Plantation(if Yes,which species and area)(Top 3)</string>
+    <string name="Species">Species</string>
+    <string name="Area">Area</string>
+    <string name="Village_Connectivity_Roads">3. Village Connectivity(Roads)</string>
+    <string name="Distance_of_the_village_from_the_nearest_Highway">Distance of the village from the nearest Highway/Major Dist. Road(in km)</string>
+    <string name="Is_the_village_connected_to_the_above_by_a_pacca_road">Is the village connected to the above by a pacca road?</string>
+    <string name="yes">Yes</string>
+    <string name="If_yes_detail_of_the_Approach_Road">If yes, detail of the Approach Road/Connecting Road</string>
+    <string name="Length_of_the_Road">1)Length of the Road(in km)</string>
+    <string name="Year_of_construction">2)Year of construction</string>
+    <string name="Scheme_under_which_constructed">3)Scheme under which constructed</string>
+    <string name="Present_Status">4)Present Status(complete/incomplete)</string>
+    <string name="Length_of_internal_roads">Length of internal roads(inside village/hamlets)</string>
+    <string name="Kachha">Kachha</string>
+    <string name="In">In(km)</string>
+    <string name="Pakka">Pakka</string>
+    <string name="Ink">In(km)</string>
+    <string name="What_is_the_mode_of_transport_available">What is the mode of transport available?</string>
+    <string name="Bus">Bus</string>
+    <string name="Shared_Auto">Shared Auto</string>
+    <string name="Any">Any Other</string>
+    <string name="Frequency_of_the_available_mode_of_transport">Frequency of the available mode of transport</string>
+    <string name="Frequent">Frequent</string>
+    <string name="Only_two_times_a_day">Only two times a day</string>
+    <string name="Jeep">Jeep</string>
+    <string name="Not_Frequent">Not Frequent</string>
+
+
+    <string name="PROGRAMMEDETAILS">PROGRAMME DETAILS</string>
+    <!--Other string resources also defined in this file… -->
+    <string name="feedbacktype1" translatable="false">Praise</string>
+    <string name="feedbacktype2" translatable="false">Gripe</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4" translatable="false">Bug</string>
+    <string name="feedbacktype" translatable="false">string</string>
+    <string name="title_activity_mainpage1" translatable="false">Mainpage1</string>
+    <string name="changeLang">changeLang</string>
+    <string name="Age">Age</string>
+    <string name="Village">Village</string>
+    <string name="Pincode">Pincode</string>
+    <string name="already">Already have an account? Login</string>
+    <string name="select">Select or Capture Image</string>
+    <string name="OurStory">Our Story</string>
+    <string name="details">Knowledge, College - Village ProjectIn Feb 2017, ‘village sustainability and education system’ Orientation Program was organized on 4th and 5th Feb 2017. In this Orientation Programcentre trying to club present education system and panchayat raj system for sustainable village development program. The workshop was organized for selected Professors from Pune University, Kolhapur University and collage from Karnataka, student etc. the number of participants in the workshop was 50. The lecture delivered in this workshop was done by 9 experts. The introductory speech was delivered by Dr. Ram Takavale and the Valedictory speech was delivered by Dr. RajaramDeshmukh, Vice Chancellor of Agriculture University. The Principal of 5 different colleges, teachers and students discuss on sustainable village development on their personal experiences.\"</string>
+    <string name="q1">5.Common Village Electricity Requirements</string>
+    <string name="q2">1.Panchyat Office</string>
+    <string name="q3">Electrical Appliances</string>
+    <string name="q4">Write coding with Nos.</string>
+    <string name="q5">Working duration/day(in hours)</string>
+    <string name="q6">Write appliance code with No. of hours</string>
+    <string name="q7">2.Dispensary</string>
+    <string name="q8">3.Community Halls</string>
+    <string name="q9">4.Street Lighting</string>
+    <string name="q10">5. Dharamashala</string>
+    <string name="q11">6.Social Organisations(Youth/Mahila Clubs)</string>
+    <string name="q12">7.Training cum Production Centers</string>
+    <string name="q13">8.Others</string>
+    <string name="q14">1-CFL/LED-Bulb/Tube Light(20W),2-Fan(70W),3-Desert Cooler(150W),4-TV(150W),5-Refrigerator(220W),6-Music System(100W),7-Electric Motor Pump(750W),8-Heater(1000W),9-Electric Iron(1000W),10-Air Conditioner</string>
+    <string name="q15">Comments,if any:</string>
+    <string name="q16">Submit</string>
+    <string name="SubmittedSuccesfully">Submitted Succesfully</string>
+    <string name="h1">Household Survey Form</string>
+    <string name="h2">Ward Number:</string>
+    <string name="h3">Block:</string>
+    <string name="h4">1.Respondent\'s Profile</string>
+    <string name="name">Name</string>
+    <string name="other">Other</string>
+    <string name="h5">Relationship with Head of Household</string>
+    <string name="ContactNumber">Contact Number</string>
+    <string name="h6">Identity Card Type</string>
+    <string name="h7">Identity Card Number</string>
+    <string name="h8">2.General Household Information</string>
+    <string name="h9">Household Id</string>
+    <string name="h10">Name of Head(Household)</string>
+    <string name="Category">Category</string>
+    <string name="General">General</string>
+    <string name="SC">SC</string>
+    <string name="ST">ST</string>
+    <string name="OBC">OBC</string>
+    <string name="OwnHouse">Own House</string>
+    <string name="h11">Type of House</string>
+    <string name="h12">Kaccha</string>
+    <string name="h13">Semi pucca</string>
+    <string name="h14">Pucca</string>
+    <string name="h15">Homeless</string>
+    <string name="Toilet">Toilet</string>
+    <string name="Total">Total</string>
+    <string name="Private">Private</string>
+    <string name="Community">Community</string>
+    <string name="OpenDefecation">Open Defecation</string>
+    <string name="h16">Drainage Linked to House</string>
+    <string name="Covered">Covered</string>
+    <string name="Open">Open</string>
+    <string name="h17">None</string>
+    <string name="h18">Waste Collection System</string>
+    <string name="DoorStep">Door Step</string>
+    <string name="CommonPoint">Common Point</string>
+    <string name="h19">No Collection Point</string>
+    <string name="h20">Compost Pit</string>
+    <string name="Individual">Individual</string>
+    <string name="Group">Group</string>
+    <string name="h21">Biogas Plant</string>
+    <string name="h23">5.Information of Government Schemes</string>
+    <string name="h24">1.PM Jan Dhan Yojana</string>
+    <string name="benefit">Persons Benefit(In Numbers)</string>
+    <string name="h25">2.PM Ujjwala Yojana</string>
+    <string name="No">No</string>
+    <string name="Next">Next</string>
+    <string name="h26">3.PM Awas Yojana</string>
+    <string name="h27">4.Sukanya Samridhi Yojana</string>
+    <string name="h28">5.Mudra Yojana</string>
+    <string name="h30">6.PM Jivan Jyoti Bima Yojana</string>
+    <string name="h31">7.PM Suraksha Bima Yojana</string>
+    <string name="h32">8.Atal Pension Yojana</string>
+    <string name="h33">9.Fasal Bima Yojana</string>
+    <string name="h34">10.Kaushal Vikas Yojana</string>
+    <string name="h37">11.Krishi Sinchai Yojana</string>
+    <string name="h35">12.Jan Aushadi Yojana</string>
+    <string name="h36">13.Swachh Bharat Mission Toilet</string>
+    <string name="h38">14.Soil Health Card</string>
+    <string name="h39">15.Ladli Lakshmi Yojana</string>
+    <string name="h40">16.Janani Suraksha Yojana</string>
+    <string name="h41">17. Kisan Credit Card</string>
+    <string name="HouseHoldSurvey">House Hold Survey</string>
+
+    <string name="url" translatable="false">http://192.168.225.124</string>
+
+
+</resources>

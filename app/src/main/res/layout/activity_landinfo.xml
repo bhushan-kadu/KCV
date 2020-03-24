@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".landinfo">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PROGRAMME DETAILS"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/layout1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="1. WATERSHED DEVELOPMENT COMPONENT OF PRADHAN MANTRI KRISHI SINCHAI YOJANA (WDC-PMKSY)"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout2"
+                android:layout_marginTop="5dp">
+
+
+                <ImageView
+                    android:src="@drawable/land11"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout3"
+
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Department of Land Resources, Ministry of Rural Development has been implementing an area development programme i.e. Integrated Watershed Management Programme (IWMP) w.e.f. 26.02.2009 principally for development of rainfed portions of net cultivated area and culturable wastelands. The activities undertaken inter alia include ridge area treatment, drainage line treatment, soil and moisture conservation, rain water harvesting, nursery raising, afforestation, horticulture, pasture development, livelihoods for asset-less persons, etc. Subsequent to approval of Pradhan Mantri Krishi Sinchayee Yojana (PMKSY),IWMP was subsumed as one of its components. The Operational Guidelines of PMKSY wereapproved on 26.10.2015 as per which IWMP is implemented as Watershed Development Component of PMKSY (WDC-PMKSY). The Department of Land Resources, Ministry of Rural Development has been implementing an area development programme i.e. Integrated Watershed Management Programme (IWMP) w.e.f. 26.02.2009 principally for development of rainfed portions of net cultivated area and culturable wastelands. The activities undertaken inter alia include ridge area treatment, drainage line treatment, soil and moisture conservation, rain water harvesting, nursery raising, afforestation, horticulture, pasture development, livelihoods for asset-less persons, etc. Subsequent to approval of Pradhan Mantri Krishi Sinchayee Yojana (PMKSY),IWMP was subsumed as one of its components. The Operational Guidelines of PMKSY wereapproved on 26.10.2015 as per which IWMP is implemented as Watershed Development Component of PMKSY (WDC-PMKSY)."
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="17dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/layout4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2.THE MAIN FEATURES OF WDC-PMKSY ARE AS BELOW:"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout5"
+                android:layout_marginTop="25dp">
+
+                <ImageView
+                    android:src="@drawable/land12"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout6"
+
+                android:layout_marginTop="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(i)	As per the Common Guidelines for Watershed Development Projects-2008 (Revised Edition-2011), the period for completing PMKSY (Watershed Development) projects is between 4-7 years. The activities to be taken up are distributed over three phases. The Preparatory Phase (1 to 2 years) involves preparation of DPR, Entry Point Activities and Institution and Capacity Building. The Watershed Works Phase (2 to 3 years) involves the Watershed Development Works, Livelihood Activities for the asset-less persons and Production System and Micro Enterprises. The Consolidation and Withdrawal Phase (1 to 2 years) involves consolidation and completion of various works. (ii) The cost norm for IWMP is Rs. 15,000/- per ha for hilly and difficult area, Rs. 12,000/- per ha for other areas and upto Rs. 15,000 per ha for IWMP projects in Integrated Action Plan (IAP) Districts. While the funding pattern between Centre and States in the erstwhile IWMP was 90:10, the funding pattern under Watershed Development Component of PMKSY is 60:40.However, for North-Eastern States and Hill States (J and K, H.P and Uttarakhand) the funding pattern between Centre and the States continues to be 90:10. The projects under IWMP undertake a cluster of micro-watersheds of area about 5000 ha in rainfed/ degraded areas having no assured irrigation. Dedicated institutions are also provided at Centre, State and District levels. The programme lays emphasis on meticulous planning and capacity building, by providing a special provision of 1 % for preparation of Detailed Project Report (DPR) and 5 % for Institution and Capacity Building."
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/layout7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3.	NEW INITIATIVES"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout8"
+                android:layout_marginTop="35dp">
+
+                <ImageView
+                    android:src="@drawable/land13"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout9"
+
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:text="DoLR has taken a number of new initiatives to revamp implementation of watershed programme as detailed below: (i) Srishti and Drishti ‘Bhuvan Portal’ developed by ISRO/NRSC has been launched on 19.02.2015 by Hon’ble Minister of Rural Development for planning and monitoring of projects. (a)	Srishti is a GIS based Geo-portal developed to assist in monitoring, evaluation, change assessment and provide inputs in planning for watershed management and preparation of Detailed Project Reports (DPR). (b)	Drishti is the Mobile Application tool to capture data including visuals from the field for real time monitoring of IWMP projects. The tool can also be used for community monitoring of IWMP works. (ii)	The Department is implementing the Public Finance Management System (PFMS) developed by the Office of Controller General of Accounts in IWMP. The system is being used to make payments, execute expenditure filing and track expenditure of funds in near real time during implementation of IWMP. (iii)	A convergence matrix in consultation with other Ministries and States has been developed. The matrix lists the various Ministries/Departments, agencies/institutions and lays down responsibilities within the IWMP implementing institutions to strive for convergence at the field level. The Convergence Matrix would be a mandatory part of DPR. (iv)	Department of Land Resources has taken a new initiative for Concurrent Monitoring and Evaluation of the IWMP projects. In this regard many of the States have already selected the independent Evaluation Agencies. The Department has also appointed three agencies for third party Monitoring and Evaluation of the Watershed Development Component of PMKSY for the North, West and North East regions. The process of selection of agencies for the South and East regions is under process."
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/layout10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.CONVERGENCE"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout11"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:src="@drawable/land14"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="500dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" >
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/layout12"
+
+                android:layout_marginTop="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="The principal emphasis is on qualitative and timely execution of the watershed development projects, with one: optimal utilisation of available budgetary support, two: convergence with relevant Central and State schemes and three: prioritization of projects / project activities. Chief Secretaries of all States (except Goa) have been accordingly requested on 02.02.2017. Keeping in view that successful implementation of projects inter alia requires concerted efforts towards convergence of schemes and programmes of not only of Central Government Ministries but also of State Government Departments as may fit into the schematic design and overall requirements and objectives of watershed development, action has specifically been initiated to prepare apt convergence matrix inclusive of both Central and State schemes in the projects. To optimize the resources action has been initiated for signing an MoU with the three Departments in Ministry of Agriculture and Farmers Welfare, namely (i) Department of Agriculture, Cooperation and Farmers Welfare, (ii) Department of Animal Husbandry, Dairying and Fisheries and (iii) Department of Agricultural Research and Education. Action has also been taken to undertake Natural Resources Management activities by utilizing the labour component of MGNREGS and to undertake some of the Entry Point Activities in convergence with Swachh Bharat Mission (Gramin)."
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

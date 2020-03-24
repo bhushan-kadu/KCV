@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/head_survey_2LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Village Connectivity(Roads)"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+        <TextView
+
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distance of the village from the nearest Highway/Major Dist. Road(in km)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+
+
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+
+            />
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is the village connected to the above by a pacca road?"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:layout_marginTop="20sp"
+            android:id="@+id/yn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"/>
+
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+android:text="No"
+/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If yes, detail of the Approach Road/Connecting Road"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     1)Length of the Road(in km)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     2)Year of construction"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/edit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     3)Scheme under which constructed"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/edit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     4)Present Status(complete/incomplete)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_marginTop="20sp"
+            android:id="@+id/edit5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Length of internal roads(inside village/hamlets)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Kachha"/>
+            <EditText
+                android:layout_marginTop="20sp"
+
+                android:id="@+id/edit6"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="In(km)"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Pakka"/>
+            <EditText
+                android:layout_marginTop="20sp"
+
+                android:id="@+id/edit7"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="In(km)"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Total"/>
+            <EditText
+                android:layout_marginTop="20sp"
+
+                android:id="@+id/edit8"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textSize="20sp"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="In(km)"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the mode of transport available?"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        <RadioGroup
+            android:id="@+id/transport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/bus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bus"/>
+
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shared Auto"/>
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/jeep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jeep"/>
+
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/any_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Any Other"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequency of the available mode of transport"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        <RadioGroup
+            android:id="@+id/mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/frequent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequent"/>
+
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/not_frequent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Frequent"/>
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/only_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Only two times a day"/>
+
+            <RadioButton
+                android:textSize="20sp"
+                android:id="@+id/any_other1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Any Other"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/head_survey_2_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:onClick="head_survey_2_next"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/buttoncolr"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</ScrollView>

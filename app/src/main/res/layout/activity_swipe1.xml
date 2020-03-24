@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gredient1"
+    android:layout_height="match_parent"
+    tools:context=".swipe1">
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginEnd="10dp"
+
+            android:background="@android:color/transparent"
+            android:onClick="skip"
+            android:text=" Skip"
+            android:textColor="#FCFCFC"
+            android:textSize="25sp" /></LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        >
+    <TextView
+        android:id="@+id/swip1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Concept"
+        android:textStyle="bold"
+        android:textColor="#FCFCFC"
+        android:textColorLink="#FCFCFC"
+        android:textSize="50sp"
+        android:layout_marginTop="190dp"
+        />
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/linear2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/linear1"
+    android:layout_marginTop="20dp"
+    >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A life within the village and in the immediate surroundings. A Village Development Plan (VDP) is a plan outlining the desired developments -‐ according to the inhabitants – "
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#FCFCFC"
+         />
+</LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+
+            android:background="@android:color/transparent"
+            android:onClick="click1"
+
+            android:drawableRight="@drawable/arrow2"
+            android:gravity="right"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            />
+
+
+
+
+</RelativeLayout>
