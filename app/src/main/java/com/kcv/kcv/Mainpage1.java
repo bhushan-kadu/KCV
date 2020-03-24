@@ -211,6 +211,7 @@ public class Mainpage1 extends AppCompatActivity
             Intent intent = new Intent(Mainpage1.this, Login.class);
             Toast.makeText(getApplicationContext(), "Sucessfully Logged out", Toast.LENGTH_LONG).show();
             startActivity(intent);
+            //i added this line for checking
 
 
         }
