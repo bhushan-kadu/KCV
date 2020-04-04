@@ -31,6 +31,9 @@ public class Session {
     public void setShowInfo(Boolean showInfo) {
         prefs.edit().putBoolean("showInfo", showInfo).commit();
     }
+    public void setcurPage(int curPage) {
+        prefs.edit().putInt("curPage", curPage).commit();
+    }
 
 
     public String getUserId() {
@@ -56,5 +59,8 @@ public class Session {
     public Boolean getShowInfo() {
         Boolean showInfo = prefs.getBoolean("showInfo",true);
         return showInfo;
+    }public int getcurPage() {
+        int curPage = prefs.getInt("curPage",1);
+        return curPage;
     }
 }

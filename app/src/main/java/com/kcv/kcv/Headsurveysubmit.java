@@ -35,4 +35,10 @@ public class Headsurveysubmit extends AppCompatActivity {
 
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(Headsurveysubmit.this, Mainpage1.class);
+        startActivity(i);
+    }
 }

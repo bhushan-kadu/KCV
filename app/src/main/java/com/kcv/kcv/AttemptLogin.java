@@ -66,6 +66,7 @@ class AttemptLogin extends AsyncTask<String, String, JSONObject> {
                 params.add(new BasicNameValuePair("email",email));
                 params.add(new BasicNameValuePair("first_name",first_name));
                 params.add(new BasicNameValuePair("last_name",last_name));
+                params.add(new BasicNameValuePair("user_type",""));
                 params.add(new BasicNameValuePair("profile_pic",profile_pic));
                 params.add(new BasicNameValuePair("mobile",mobile));
                 params.add(new BasicNameValuePair("gender",gender));

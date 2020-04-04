@@ -605,7 +605,7 @@ public class signinpage extends Activity implements View.OnClickListener {
                 if(loginState == 1){
                     startActivity(i);
                 }else{
-                    Toast.makeText(getApplicationContext(), "Please enter correct derails", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Please enter correct details", Toast.LENGTH_SHORT).show();
                 }
             }
 

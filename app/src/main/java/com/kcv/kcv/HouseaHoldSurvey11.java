@@ -21,12 +21,14 @@ import java.util.HashMap;
 public class HouseaHoldSurvey11 extends AppCompatActivity {
     private Bundle b ;
     HashMap<String, String> params;
+    ArrayList<Integer> counterList;
     int count;
     LinearLayout linearLayout;
     ParameterExtraction parameterExtraction;
     JSONParser jsonParser=new JSONParser();
     Session session;
     String URL;
+    int pageCount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,8 @@ public class HouseaHoldSurvey11 extends AppCompatActivity {
         b = this.getIntent().getExtras();
         if(b!= null){
             params = (HashMap<String, String>) b.getSerializable("form-params");
+            counterList = b.getIntegerArrayList("counter_list");
+            pageCount = b.getInt("curPage");
             count = b.getInt("count");
         }
         linearLayout = findViewById(R.id.householdSurvey11);
@@ -44,8 +48,9 @@ public class HouseaHoldSurvey11 extends AppCompatActivity {
 
     }
     public void reg(View view) {
-
-        params = parameterExtraction.getParams(linearLayout, count, params);
+        counterList.add(count);
+        pageCount = new Session(getApplicationContext()).getcurPage();
+        params = parameterExtraction.getParams(linearLayout, counterList.get(pageCount), params);
         count = parameterExtraction.getCounter();
 
 
@@ -54,7 +59,9 @@ public class HouseaHoldSurvey11 extends AppCompatActivity {
         Log.i("params", String.valueOf(params.size()));
         Bundle extras = new Bundle();
         extras.putSerializable("form-params",params);
-        extras.putInt("count", count);
+        counterList.add(count);
+        extras.putInt("curPage", ++pageCount);
+        extras.putIntegerArrayList("counter_list", counterList);
         Intent intent=new Intent(view.getContext(),Headsurveysubmit.class);
         intent.putExtras(extras);
         Toast.makeText(this, getResources().getString(R.string.SubmittedSuccesfully), Toast.LENGTH_SHORT).show();
@@ -104,5 +111,10 @@ public class HouseaHoldSurvey11 extends AppCompatActivity {
         UploadForm uploadForm = new UploadForm();
         uploadForm.execute(json);
 
+    }
+    public void onBackPressed() {
+        pageCount = new Session(getApplicationContext()).getcurPage();
+        new Session(getApplicationContext()).setcurPage(pageCount-1);
+        super.onBackPressed();
     }
 }
