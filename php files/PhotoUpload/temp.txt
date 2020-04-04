@@ -1,0 +1,4 @@
+{"1": "bhushan kadu","2": "aniruddha"}
+
+ALTER TABLE users ADD user_type VARCHAR(5 ) after last_name
+CREATE VIEW `householdsurveyques` AS SELECT * from questions WHERE SurveyID = 2;
